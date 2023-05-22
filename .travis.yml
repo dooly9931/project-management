@@ -1,0 +1,11 @@
+dist: bionic
+
+jobs:
+  include:
+    - language: node_js
+      node_js: 16
+      install:
+        - yarn install
+      scripts:
+        - yarn lint
+        - yarn test
