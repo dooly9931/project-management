@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=alert_status)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
