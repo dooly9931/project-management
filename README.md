@@ -1,5 +1,18 @@
 # Getting Started with Create React App
 
+[![Build Status](https://travis-ci.com/dooly9931/project-management.svg?branch=main)](https://travis-ci.com/dooly9931/project-management)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=bugs)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=code_smells)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=coverage)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=ncloc)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=alert_status)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=security_rating)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=sqale_index)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dooly9931_project-management&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dooly9931_project-management)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
