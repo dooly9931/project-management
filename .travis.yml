@@ -4,8 +4,15 @@ jobs:
   include:
     - language: node_js
       node_js: 16
+      addons:
+        sonarcloud:
+          organization: dooly9931
+          token:
+            secure: ebbNNWAmlCqRW/N8fGe24FZXmSY2K7maCSlzIJV5l+WnApbxtMLjdQDdoBqvRytaWbmbllhItAfI8xVz+F0V25ZfGJNaewejfM76+XD+zOjI4ru8QB+j0enFj0/i5A5cLCYdpJ/uhW+1erhdY53ephMyBVObXfaaYM5ZSjbmCXeS+4dnuleBnHO2ZQPQL9vz21Is2T0n3ZA76SOC9bfaXuytUESo1eydXuYyq5A/6WFvM1Eyh4jB+Dl1W6OgCfa0ghwJV6F1x4VNOub3XohiEFOl1m/ioo2pFtWXvja3wBOCy8fLyx4VDrr7WdaJucOmcLsflX/Wt8dSzhzcRpb6IR00/MbCoWVPwvdb9BuZ5cG314fGfnRo25YT0OpHr7bHDLmLLEe7hpc4mpc2DooZeWLClqSIfjQNbsPMr1i21c14ZEqFPeWNt9brDZsCj9/WEY3Qwc422puwKlyy/sIfTY00iz5xisShk6enDTgyHRbGO7/Eww8FcTe7txm2AZj0z87KNa69uNqm3vupPmAR2xmFqePoMQugxF81T8xWzcZlmhEdeeoeSz1UJLVrHy7i+CVpJTfoC09JUW4S36N39aJJagDrdbIL6dG5dXo5oD7cX3U9yn40sHphRUcEkpJH/hB8tay6ayEhinB9ZNFFrc6ifI8xtPZZaI9XfCvIDAk=
       install:
         - yarn install
       scripts:
         - yarn lint
         - yarn test
+        - coverage xml
+        - cd .. && sonar-scanner
