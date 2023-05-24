@@ -14,5 +14,4 @@ jobs:
       scripts:
         - yarn lint
         - yarn test
-        - coverage xml
         - cd .. && sonar-scanner
