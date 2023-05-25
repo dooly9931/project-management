@@ -7,10 +7,15 @@ const Home = () => {
   return (
     <div>
       {!showSecret && (
-        <div onClick={() => setShowSecret(!showSecret)}>Home</div>
+        <div data-testid="home-btn" onClick={() => setShowSecret(!showSecret)}>
+          Typo
+        </div>
       )}
       {showSecret && (
-        <div onClick={() => setShowSecret(!showSecret)}>
+        <div
+          data-testid="secret-btn"
+          onClick={() => setShowSecret(!showSecret)}
+        >
           The secret is... {SECRET}!!
         </div>
       )}
