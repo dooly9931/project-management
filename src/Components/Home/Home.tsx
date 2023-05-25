@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       {!showSecret && (
         <div data-testid="home-btn" onClick={() => setShowSecret(!showSecret)}>
-          Typo
+          Home
         </div>
       )}
       {showSecret && (
